@@ -79,72 +79,85 @@ export default function Home  ()  {
               </div> */}
             </div>
          </section>
-
+                          <h1 className="flex justify-center text-3xl bg-indigo-200">Skills</h1>
         <section className=" bg-[#f8f8f8] flex w-full md:justify-between max-md:flex-wrap   max-md:m-0">
             <div className="md:w-[28%] max-md:mt-24  md:ml-20 text-center m-4">
-            
+            <h1 className="text-2xl">Frontend Technology</h1>
               <div className="border-[#F0F0F0] max-md:w-[350px]   flex justify-around border-2 hover:bg-white p-5 mt-5 max-md:mt-12 rounded-lg cursor-pointer">
-              <div className="w-[65px] h-[65px] bg-[#286f6c] rounded-full flex justify-center items-center">
+              {/* <div className="w-[65px] h-[65px] bg-[#286f6c] rounded-full flex justify-center items-center">
                 <img src="/image/icons8-computer-30.png"/>
-              </div>
-                <div className="text-2xl">Website Design <span className="block text-sm">76 Projects</span></div>
+              </div> */}
+                {/* <div className="text-2xl">Website Design <span className="block text-sm">76 Projects</span></div> */}
+                 <img src="/image/icons8-js-50.png"/>
+                 <img src="/image/icons8-react-48.png"/>
+                 <img src="/image/icons8-typescript-50.png"/>
+                 <img src="/image/icons8-nextjs-50.png"/>
+                 <img src="/image/icons8-html5-50.png"/>
+                 <img src="/image/icons8-css3-50.png"/>
               </div>
 
 
+                 <h1 className="text-2xl mt-5">Backend Technology</h1>
               <div className="border-[#F0F0F0] shadow-xs flex justify-around items-center  border-2 hover:bg-white p-5 mt-5 rounded-lg cursor-pointer">
-                <div className="w-[65px] h-[65px] bg-[#f1c249] rounded-full flex justify-center items-center">
-                  <img src="/image/icons8-google-pixel-6-30.png"/>
-                </div>
-                <div className="text-2xl">Mobile App Design <span className="block text-sm">76 Projects</span></div>
+
+              {/* <div className="w-[65px] h-[65px] bg-[#286f6c] rounded-full flex justify-center items-center">
+                <img src="/image/icons8-computer-30.png"/>
+              </div> */}
+                {/* <div className="text-2xl">Website Design <span className="block text-sm">76 Projects</span></div> */}
+                 <img src="/image/icons8-nodejs-50.png"/>
+                 <img src="/image/icons8-sql-50.png"/>
+                 <img src="/image/icons8-mongodb-50.png"/>
+                 <img src="/image/icons8-docker-50.png"/>
+                 <img src="/image/icons8-java-50.png"/>
+         
               </div>
 
-              <div className="border-[#F0F0F0] shadow-xs  flex justify-around items-center  border-2 hover:bg-white p-5 mt-5 rounded-lg cursor-pointer">
+              {/* <div className="border-[#F0F0F0] shadow-xs  flex justify-around items-center  border-2 hover:bg-white p-5 mt-5 rounded-lg cursor-pointer">
               <div className="w-[65px] h-[65px] bg-[#f26440] rounded-full flex justify-center items-center">
               <img src="/image/icons8-spc-gear-30.png"/>
               </div>
                 <div className="text-2xl">Brand Identity <span className="block text-sm">76 Projects</span></div>
-              </div>
+              </div> */}
             </div>
 
             {/*  */}
             <div className="md:w-[50%]  text-start flex-wrap  mt-5   ">
 
-              <h1 className="p-5 max-md:text-4xl text-6xl">What do I help?</h1>
-              <p className="p-5">I will help with finging a solution and solve
-                 your problems, we use process design to create digital
-                 products. Besids that also help their business.
-                 We use process design to create digital products.
-                 Besids that also help their business. 
+              <h1 className="p-5 max-md:text-4xl text-6xl">Why me?</h1>
+              <p className="p-5">Understanding technology in Computer Science is very importatnt
+                to learn new Technology , I Focus on Fundamental how technology work , and try to take leverage and learn 
+                new technology .and also make me good problem solver.
+
               </p>
-              <div className="flex justify-around text-start ">
+              {/* <div className="flex justify-around text-start ">
                 <h1 className="text-3xl">285+ <span className="block text-sm">Project Completed</span></h1>
                 <h1 className="text-3xl">190+ <span className="block text-sm">Happy Clients</span></h1>
-              </div>
+              </div> */}
             </div>
         </section>
 
         {/* Work Experience */}
 
-<section className="bg-[#f8f7f1] h-[800px] max-md:h-[1100px]">
+<section className="bg-[#f8f7f1] h-[600px] max-md:h-[1100px]">
   <h1 className="text-center pt-10 text-2xl bold ">My Work Experience</h1>
   <div className="flex justify-evenly pt-14 max-md:flex-wrap">
 
   <div className="flex flex-col justify-around max-md:order-2">
  
     <div className="">
-      <h1 className="text-2xl">Self-Employed,Brisbane</h1>
-      <span className="block mt-2 font-bold">Sep 2016-Aug 2014</span>
+      <h1 className="text-2xl">Knight Learning Solution,Bangalore</h1>
+      <span className="block mt-2 font-bold">May 2023-May 2024</span>
     </div>
 
     <div className="mt-10">
-      <h1 className="text-2xl">New Man Services</h1>
-      <span className="block mt-2 font-bold">Jan 2017-Mar 2018</span>
+      <h1 className="text-2xl">Freelancing</h1>
+      <span className="block mt-2 font-bold">June 2021-Sepetmber 2022</span>
     </div>
 
-    <div className="mt-10">
+    {/* <div className="mt-10">
       <h1 className="text-2xl">Global Solution</h1>
       <span className="block mt-2 font-bold">Feb 2019 - Mar 2020</span>
-    </div>
+    </div> */}
 
   </div>
 
@@ -165,13 +178,13 @@ export default function Home  ()  {
 
       </div>
     <div className=" w-[0.3px] h-[170px] border-[1.5px] border-dotted border-[#9ea4a1] "></div>
-    <div className="border-2 flex justify-center items-center border-dotted  border-[#9ea4a1] w-[35px] h-[35px] rounded-full ml-[-15px]">
+    {/* <div className="border-2 flex justify-center items-center border-dotted  border-[#9ea4a1] w-[35px] h-[35px] rounded-full ml-[-15px]">
 
     <span className="  text-center block bg-[#f1c249] rounded-[100px] w-[15px] h-[15px] "></span>
 
     </div>
   <div className=" w-[0.3px] h-[170px] border-[1.5px] border-dotted border-[#9ea4a1] "></div>
-    
+     */}
   
   </div>
 
@@ -179,10 +192,18 @@ export default function Home  ()  {
 
 
   <div className="  mt-1 ml-4  max-w-[350px]  h-[200px] text-sm">
-    <h1 className="p-2 text-2xl">Visual Designer</h1>
-    <p className="p-2 text-[#4f646b]">A Visual Designs for a variety of platforms
-      , which may include Internet and intranet sites, games, movies.
-    </p>
+    <h1 className="p-2 text-2xl">Frontend Developer</h1>
+    <pre className="p-2 text-[#4f646b]">Work/Acheivement 
+     <br/>* Optimize Website Loading Speed 
+       <br/> 
+        * Create Bulk Order Feature 
+   <br/>  Increase the Number Order in quantity 
+  <br/>* Create Survey Feature to take feedback from employees
+    <br/>  for 
+  the organization, It helps 
+businesses to create
+ a  <br/>  strategy according to feedback. 
+    </pre>
     
   
   </div>
@@ -190,23 +211,26 @@ export default function Home  ()  {
 {/*  */}
 
   <div className="mt-1 ml-4  max-w-[300px]  h-[200px] text-sm">
-    <h1 className="p-2 text-2xl">New Man Services</h1>
-    <p className="p-2 text-[#4f646b]">A Visual Designs for a variety of platforms
-      , which may include Internet and intranet sites, games, movies.
-    </p>
+    <h1 className="p-2 text-2xl">Freelancing</h1>
+    <pre className="p-2 text-[#4f646b]">Work/Acheivement
+      <br/> 
+          *Create a website and application for startup <br/> sells spirulina products 
+      <br/>
+       *Create a pos system for a cloth store .
+    </pre>
 
   </div>
 
 {/*  */}
 
 
-  <div className="  mt-1 ml-4  max-w-[300px]  h-[200px] text-sm">
+  {/* <div className="  mt-1 ml-4  max-w-[300px]  h-[200px] text-sm">
     <h1 className="p-2 text-2xl">Global Solution</h1>
     <p className="p-2 text-[#4f646b]">A Visual Designs for a variety of platforms
       , which may include Internet and intranet sites, games, movies.
     </p>
    
-  </div>
+  </div> */}
 
 </div>
 
@@ -220,24 +244,27 @@ export default function Home  ()  {
 <section className="md:m-20 max-md:m-5 mt-20 h-[350px] max-md:h-[450px]">
   <h1 className="text-2xl">My Latest Works</h1>
   <div className="flex justify-between">
-    <p className="mt-2 text-sm">Perfect solution for digital experience</p>
+    <p className="mt-2 text-sm"></p>
     <a className="underline text-[#f26440] text-lg mt-[-20px]">Explore More</a> 
   </div>
   {/* work section */}
 
   <div className={`mt-16 scroll-smooth scroll-thin  overflow-x-scroll   ${styles.worksection}`}>
-    
+  
       <div className={`flex justify-evenly  w-[1200px] h-[300px] p-2 ${styles.worksectionboxshadow}`}>
-
-        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#f1c249]">
-          <p className="text-white text-xl m-4">App Design <span className="text-sm block bold">Food Delivery App</span></p>
+             
+        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#f1c249]" onClick={()=>document.location.replace('https://onlinemedicares.netlify.app/login')}>
+          <p className="text-white text-xl m-4">Online Appointment  <a className="text-md block bold underline" href="https://onlinemedicares.netlify.app/login" target="_blank">Website</a></p>
           
         </div>
-        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#286f6c]">
-          <p className="text-white text-xl m-4">App Design <span className="text-sm block bold">Web Design</span></p>
+        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#286f6c]" onClick={()=>document.location.replace('https://onlinemedicares.netlify.app/login')}>
+           <p className="text-white text-xl m-4">Blog Application  <a className="text-md block bold underline" href="https://techieblog.onrender.com/" target="_blank">Website</a></p>
+          
         </div>
-        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#d5eae5]">
-          <p className="text-white text-xl m-4">Brand Build <span className="text-sm block bold">Brand advertisment</span></p>
+        <div className="w-[350px] h-[250px] rounded-[8px] bg-[#d5eae5]" onClick={()=>document.location.replace('https://onlinemedicares.netlify.app/login')}>
+        
+           <p className="text-white text-xl m-4">Responsive Dashboard  <a className="text-md block bold underline" href="https://fitpeoapp.netlify.app/" target="_blank">Website</a></p>
+       
         </div>
       </div>
   
